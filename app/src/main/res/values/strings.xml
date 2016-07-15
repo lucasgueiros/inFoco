@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">InFoco</string>
+    <string name="bemvindo">Olá, seja bem-vindo ao InFoco: o app que pode lhe ajudar a estudar melhor!</string>
 </resources>
