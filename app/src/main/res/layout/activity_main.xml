@@ -9,9 +9,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="br.edu.ifpe.garanhuns.infoco.main.MainActivity">
 
-    <TextView
+
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/bemvindo"/>
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bemvindo"/>
+
+    </LinearLayout>
 </RelativeLayout>
